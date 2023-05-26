@@ -70,7 +70,6 @@ lomuto_sort(array, size, left, part - 1);
 lomuto_sort(array, size, part + 1, right);
 }
 }
-
 /**
  * quick_sort - Sort an array of integers
  * @array: An array of integers.
@@ -82,4 +81,4 @@ void quick_sort(int *array, size_t size)
 if (array == NULL || size < 2)
 return;
 lomuto_sort(array, size, 0, size - 1);
-} 
+}
